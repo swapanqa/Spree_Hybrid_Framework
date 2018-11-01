@@ -3,7 +3,7 @@ package com.spree_ecommerce.hybrid.cucumber.framework.steps;
 
 import com.spree_ecommerce.hybrid.cucumber.framework.basePage.BasePage;
 
-import cucumber.api.java.en.Given;
+
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 

@@ -2,7 +2,7 @@ package com.spree_ecommerce.hybrid.cucumber.framework.utils;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import com.spree_ecommerce.hybrid.cucumber.framework.utils.PropertyReaderService;
+
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

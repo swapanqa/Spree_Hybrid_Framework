@@ -9,11 +9,13 @@ import org.openqa.selenium.WebElement;
 import com.spree_ecommerce.hybrid.cucumber.framework.basePage.BasePage;
 import com.spree_ecommerce.hybrid.cucumber.framework.model.LoginPageModel;
 import com.spree_ecommerce.hybrid.cucumber.framework.utils.DriverFactory;
+import com.spree_ecommerce.hybrid.cucumber.framework.utils.SeleniumUtils;
 
 
 public class LoginPageController extends BasePage   {
 	
 	private WebDriver driver = null;
+	SeleniumUtils utils;
 	
 	public LoginPageController(WebDriver driver) {
 		this.driver = driver;
@@ -22,7 +24,7 @@ public class LoginPageController extends BasePage   {
 	public void emailText(String email) {
 		WebElement emailElement = driver.findElement(LoginPageModel.getEmail());
 		           emailElement.sendKeys(email);
-		           
+		     utils.delayFor(1000);      
 		           
 	}
 	

@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import com.spree_ecommerce.hybrid.cucumber.framework.controller.ApplicationController;
 import com.spree_ecommerce.hybrid.cucumber.framework.utils.DriverFactory;
 import com.spree_ecommerce.hybrid.cucumber.framework.utils.PropertyReaderService;
-import com.spree_ecommerce.hybrid.cucumber.framework.utils.SeleniumUtils;
+
 
 public class BasePage   {
 	

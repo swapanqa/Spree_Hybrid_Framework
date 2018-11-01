@@ -6,11 +6,13 @@ import org.openqa.selenium.support.ui.Select;
 
 import com.spree_ecommerce.hybrid.cucumber.framework.basePage.BasePage;
 import com.spree_ecommerce.hybrid.cucumber.framework.model.CheckoutAddressPageModel;
+import com.spree_ecommerce.hybrid.cucumber.framework.utils.SeleniumUtils;
 
 
 public class CheckoutAddressPageController extends BasePage {
 	
 	private WebDriver driver = null;
+	SeleniumUtils utils ;
 	
 	public CheckoutAddressPageController(WebDriver driver) {
 		this.driver = driver;

@@ -2,7 +2,7 @@ package com.spree_ecommerce.hybrid.cucumber.framework.controller;
 
 import org.openqa.selenium.WebDriver;
 
-import com.spree_ecommerce.hybrid.cucumber.framework.utils.SeleniumUtils;
+
 
 public class ApplicationController {
 	
@@ -10,7 +10,6 @@ public class ApplicationController {
     protected HomePageController homePage = null;
 	protected LoginPageController loginPage = null;
 	protected SearchPageController search   = null;
-	protected SignUpPageController signUpPage = null;
 	protected CartPageController cartPage = null;
 	protected CheckoutAddressPageController addressPage = null;
 	
@@ -42,12 +41,7 @@ public class ApplicationController {
 		return search;
 	}
 	
-	public SignUpPageController signUpPage() {
-		if(signUpPage == null) {
-			signUpPage = new SignUpPageController(driver);
-		}
-		return signUpPage;
-	}
+	
 	
 	public CartPageController cartPage() {
 		if(cartPage == null) {
