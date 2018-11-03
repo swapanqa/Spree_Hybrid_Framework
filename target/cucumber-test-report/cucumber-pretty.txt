@@ -1,7 +1,14 @@
-Feature: Spree home page functionality
+Feature: Add to cart functionality
 
-  Scenario:                             # src/test/resources/features/HomePage.feature:4
+  Background:                           # src/test/resources/features/AddToCartPage.feature:2
     Given Not a validated user          # HomePageStep.not_a_valideted_user()
     When User browse to the site        # HomePageStep.User_browse_to_the_Site()
     Then Spree home page should display # HomePageStep.spree_home_page_should_display()
-    And All links are not broken        # HomePageStep.all_links_are_not_broken()
+
+  Scenario: 1.User Add the product to shopping cart # src/test/resources/features/AddToCartPage.feature:9
+    When User click the bags categories link        # AddToCartPageSteps.user_click_the_bags_categories_link()
+    Then Bags categories page should display        # AddToCartPageSteps.bags_categories_page_should_display()
+    When User select ruby on rails bag item         # AddToCartPageSteps.user_select_buby_on_rails_bag_item()
+    Then Ruby on rails bag page should display      # AddToCartPageSteps.buby_on_rails_bag_page_should_display()
+    When User Select the quantity                   # AddToCartPageSteps.user_select_the_quantity()
+    And Click the add to cart button                # AddToCartPageSteps.click_the_add_cart_button()

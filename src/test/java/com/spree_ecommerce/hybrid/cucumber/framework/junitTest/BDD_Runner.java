@@ -15,11 +15,11 @@ import cucumber.api.junit.Cucumber;
 		// dryRun = true,
 		monochrome = true,
 
-		 features = "src/test/resources/features/HomePage.feature",
+		// features = "src/test/resources/features/HomePage.feature",
 		// features = "src/test/resources/features/LoginPage.feature",
 		
 		// features = "src/test/resources/features/SearchPage.feature",
-		// features = "src/test/resources/features/AddToCartPage.feature",
+		 features = "src/test/resources/features/AddToCartPage.feature",
 
 		glue = { "com.spree_ecommerce.hybrid.cucumber.framework.steps",
 				"com.spree_ecommerce.hybrid.cucumber.framework.hooks" },

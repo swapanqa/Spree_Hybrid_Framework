@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.196305">
-<testcase classname="Spree home page functionality" name="_2" time="50.196305">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.615852">
+<testcase classname="Add to cart functionality" name="1.User Add the product to shopping cart" time="14.615852">
 <system-out><![CDATA[Given Not a validated user..................................................passed
 When User browse to the site................................................passed
 Then Spree home page should display.........................................passed
-And All links are not broken................................................passed
+When User click the bags categories link....................................passed
+Then Bags categories page should display....................................passed
+When User select ruby on rails bag item.....................................passed
+Then Ruby on rails bag page should display..................................passed
+When User Select the quantity...............................................passed
+And Click the add to cart button............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

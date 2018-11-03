@@ -1,0 +1,70 @@
+# Created at 2018-11-02T00:32:59.164
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-11-02T00:33:00.131
+Unexpected IOException with stream: 36--->http://spree.shiftedtech.com/?page=2----->OK
+
+
+# Created at 2018-11-02T00:33:01.257
+Unexpected IOException with stream: 37--->http://spree.shiftedtech.com/?page=2----->OK
+
+
+# Created at 2018-11-02T00:33:02.287
+Unexpected IOException with stream: 38--->http://spree.shiftedtech.com/?page=2----->OK
+
+
+# Created at 2018-11-02T00:33:03.155
+Unexpected IOException: 6,1,Spree home page functionality,EMPTY_NAME(Spree home page functionality),null,null,null
+
+
+# Created at 2018-11-02T00:33:03.212
+Unexpected IOException with stream: 
+
+
+# Created at 2018-11-02T00:33:03.214
+Unexpected IOException with stream: 1
+
+# Created at 2018-11-02T00:33:03.215
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2018-11-02T00:33:03.215
+Unexpected IOException with stream: 1 passed
+
+# Created at 2018-11-02T00:33:03.216
+Unexpected IOException with stream: )
+
+
+# Created at 2018-11-02T00:33:03.216
+Unexpected IOException with stream: 4
+
+# Created at 2018-11-02T00:33:03.216
+Unexpected IOException with stream:  Steps (
+
+# Created at 2018-11-02T00:33:03.217
+Unexpected IOException with stream: 4 passed
+
+# Created at 2018-11-02T00:33:03.217
+Unexpected IOException with stream: )
+
+
+# Created at 2018-11-02T00:33:03.218
+Unexpected IOException with stream: 0m
+
+# Created at 2018-11-02T00:33:03.218
+Unexpected IOException with stream: 48.784s
+
+
+# Created at 2018-11-02T00:33:03.219
+Unexpected IOException with stream: 
+
+
+# Created at 2018-11-02T00:33:03.219
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,com.spree_ecommerce.hybrid.cucumber.framework.junitTest.BDD_Runner,null,null,null
+
+
