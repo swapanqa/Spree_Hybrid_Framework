@@ -18,7 +18,7 @@ Background:
 	  Then Home page should display
 	  And Login success message "Logged in successfully" display
 
-  #Scenario: 2.Invalid user with Invalid password
+  Scenario: 2.Invalid user with Invalid password
 	  Given Not a validated user
 	  When User browse to the site
 	  Then Spree home page should display

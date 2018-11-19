@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "spree-home-page-functionality;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5431730400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Not a validated user",
+            "match": {
+              "location": "HomePageStep.not_a_valideted_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3830861200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User browse to the site",
+            "match": {
+              "location": "HomePageStep.User_browse_to_the_Site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35274900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Spree home page should display",
+            "match": {
+              "location": "HomePageStep.spree_home_page_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42688530000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "All links are not broken",
+            "match": {
+              "location": "HomePageStep.all_links_are_not_broken()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Spree home page functionality",
+    "description": "",
+    "id": "spree-home-page-functionality",
+    "keyword": "Feature",
+    "uri": "c:/MyProject/hybrid.bdd_cucumber.automation_framework/src/test/resources/features/HomePage.feature",
+    "tags": []
+  }
+]

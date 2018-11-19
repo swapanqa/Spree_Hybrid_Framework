@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SeleniumUtils {
 	
-	protected WebDriver driver = null;
+protected WebDriver driver = null;
 	
 	public  SeleniumUtils(WebDriver driver) {
 		
@@ -103,6 +103,7 @@ public class SeleniumUtils {
         }
         driver.switchTo().window(currentWindowHnd);
     }
+
 
 
 }

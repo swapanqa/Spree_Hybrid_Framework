@@ -2,6 +2,8 @@ package com.spree_ecommerce.hybrid.cucumber.framework.junitTest;
 
 import org.junit.runner.RunWith;
 
+
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
@@ -15,8 +17,8 @@ import cucumber.api.junit.Cucumber;
 		// dryRun = true,
 		monochrome = true,
 
-		// features = "src/test/resources/features/HomePage.feature",
-		// features = "src/test/resources/features/LoginPage.feature",
+		 //features = "src/test/resources/features/HomePage.feature",
+		 //features = "src/test/resources/features/LoginPage.feature",
 		
 		// features = "src/test/resources/features/SearchPage.feature",
 		 features = "src/test/resources/features/AddToCartPage.feature",
@@ -24,10 +26,11 @@ import cucumber.api.junit.Cucumber;
 		glue = { "com.spree_ecommerce.hybrid.cucumber.framework.steps",
 				"com.spree_ecommerce.hybrid.cucumber.framework.hooks" },
 
-		plugin = { "pretty:target/cucumber-test-report/cucumber-pretty.txt", "html:target/cucumber-test-report",
-				"json:target/cucumber-test-report/cucumber-report.json",
+		plugin = { "pretty:target/cucumber-test-report/cucumber-pretty.txt", 
+				"html:target/cucumber-test-report",
+				
 				"junit:target/cucumber-test-report/test-report.xml" })
 
-public class BDD_Runner {
+public class BDD_Runner  {
 
 }

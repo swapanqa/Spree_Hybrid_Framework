@@ -1,0 +1,13 @@
+Parallel02IT.class
+com\spree_ecommerce\hybrid\cucumber\framework\testLayer\CheckoutAddressPageTest.class
+Parallel01IT.class
+com\spree_ecommerce\hybrid\cucumber\framework\junitTest\BDD_Runner.class
+Parallel04IT.class
+com\spree_ecommerce\hybrid\cucumber\framework\testLayer\CartPageTest.class
+Parallel05IT.class
+com\spree_ecommerce\hybrid\cucumber\framework\testLayer\LoginPageTest.class
+Parallel06IT.class
+com\spree_ecommerce\hybrid\cucumber\framework\testLayer\SikuliTest.class
+com\spree_ecommerce\hybrid\cucumber\framework\testLayer\HomePageTest.class
+com\spree_ecommerce\hybrid\cucumber\framework\testLayer\SearchItemTest.class
+Parallel03IT.class

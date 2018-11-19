@@ -13,7 +13,7 @@ public class CartPageTest extends CommonStepsPage {
 	
 	public void test() {
 		
-		spreeController().homePage().browseToTheSite();
+		
 		spreeController().homePage().goToBagsPage();
 		spreeController().cartPage().selectProduct();
 		spreeController().cartPage().selectProductQuantity("2");

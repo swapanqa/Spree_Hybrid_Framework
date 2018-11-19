@@ -1,0 +1,206 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 99421400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Not a validated user",
+            "match": {
+              "location": "HomePageStep.not_a_valideted_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260139100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User browse to the site",
+            "match": {
+              "location": "HomePageStep.User_browse_to_the_Site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26088500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Spree home page should display",
+            "match": {
+              "location": "HomePageStep.spree_home_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "1.Valid user with valid password",
+        "description": "",
+        "id": "spree-login-functionality---1;1.valid-user-with-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64285900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Not a validated user",
+            "match": {
+              "location": "HomePageStep.not_a_valideted_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1295116900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User browse to the site",
+            "match": {
+              "location": "HomePageStep.User_browse_to_the_Site()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20709000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Spree home page should display",
+            "match": {
+              "location": "HomePageStep.spree_home_page_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 973783000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click login link",
+            "match": {
+              "location": "LoginPageSteps.user_click_login_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22900500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Browser display Login page",
+            "match": {
+              "location": "LoginPageSteps.browser_display_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 241482600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter user email as \"swapanny79@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "swapanny79@yahoo.com",
+                  "offset": 26
+                }
+              ],
+              "location": "LoginPageSteps.user_enter_user_email_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141459100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter password as \"swapan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "swapan",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginPageSteps.user_enter_password_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1642067900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginPageSteps.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32329300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Home page should display",
+            "match": {
+              "location": "LoginPageSteps.home_page_should_display()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65034900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Login success message \"Logged in successfully\" display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logged in successfully",
+                  "offset": 23
+                }
+              ],
+              "location": "LoginPageSteps.login_success_message_display(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Spree login functionality - 1",
+    "description": "",
+    "id": "spree-login-functionality---1",
+    "keyword": "Feature",
+    "uri": "c:/MyProject/hybrid.bdd_cucumber.automation_framework/src/test/resources/features/LoginPage.feature",
+    "tags": []
+  }
+]
