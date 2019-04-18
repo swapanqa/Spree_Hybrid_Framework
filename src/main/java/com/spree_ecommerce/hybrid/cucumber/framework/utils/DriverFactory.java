@@ -59,8 +59,8 @@ public class DriverFactory {
 
 	        if(instance.driver.get() == null) {
 	            if (browserName.equalsIgnoreCase("chrome")) {
-	                ChromeDriverManager.getInstance().setup();
-	              // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/driver/chromedriver.exe");
+	               // ChromeDriverManager.getInstance().setup();
+	               System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/resources/driver/chromedriver");
 	                instance.driver.set(new ChromeDriver());
 	            }
 	            else if (browserName.equalsIgnoreCase("firefox")) {
